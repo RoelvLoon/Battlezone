@@ -1,0 +1,8 @@
+@media (min-width: 992px) {
+
+    .admin-content {
+        width: calc(100% - 300px);
+        margin-left: 300px;
+    }
+
+}

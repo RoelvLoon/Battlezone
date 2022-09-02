@@ -1,0 +1,52 @@
+/* body {
+    font-family: 'Ropa Sans', sans-serif;
+    color: #333;
+    margin: 0 auto;
+    position: relative;
+} */
+
+.scanFont {
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+#loadingMessage {
+    text-align: center;
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+}
+
+#canvas {
+    width: 100%;
+}
+
+.QRsucces{
+    background-color: #8fe507;
+}
+
+.QRfout{
+    background-color: orange;
+}
+
+.QRgebruikt{
+    background-color: red;
+}
+
+.icon{
+    font-size: 300;
+}
+
+.scanner { 
+    height: calc((var(--vh, 1vh) * 100) - 58px) !important;
+}
+
+@media (min-width: 992px) {
+    #output, #welcome {
+        width: calc(100vw - 300px) !important;
+    }
+
+    .scanner {
+        height: 100vh !important;
+        height: calc(var(--vh, 1vh) * 100 - 58px) !important;
+    }
+}
